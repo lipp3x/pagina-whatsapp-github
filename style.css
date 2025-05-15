@@ -17,7 +17,7 @@ body {
 }
 
 .seta-pisca {
-    width: 80px; /* Aumenta o tamanho da largura da seta */
+    width: 120px; /* Seta ainda maior */
     height: auto;
     animation: piscar 1s infinite alternate;
 }
@@ -69,4 +69,6 @@ body {
 
 .grupo-oficial {
     font-size: 0.9em;
-
+    color: #6c757d;
+    margin-top: 20px;
+}
