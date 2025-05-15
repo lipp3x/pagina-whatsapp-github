@@ -52,10 +52,8 @@ body::before {
     border-radius: 50%; /* Cria o formato redondo */
     object-fit: cover; /* Garante que a imagem cubra o círculo sem distorcer */
     box-sizing: border-box; /* Importante para que a borda não aumente o tamanho total */
-    border: 3px solid transparent; /* Define uma borda transparente inicial */
-    background-image: linear-gradient(to bottom, #fccc63, #e95950, #d62976, #962fbf, #4f5bd5); /* Gradiente de cores */
-    background-origin: border-box;
-    background-clip: content-box, border-box;
+    border: 10px solid transparent; /* Ajuste a largura da borda para a espessura desejada */
+    border-image: url('borda.png') 30 round; /* Caminho para sua imagem de borda PNG */
 }
 
 .container {
@@ -69,7 +67,7 @@ body::before {
     max-width: 450px;
     box-sizing: border-box;
     opacity: 1; /* Garante que o container seja totalmente opaco */
-    margin-top: -20px; /* Ajuste este valor para mover a caixa para cima (negativo) */
+    margin-top: -20px; /* Ajuste este valor para mover a caixa para cima */
 }
 
 .aviso-principal {
