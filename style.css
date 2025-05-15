@@ -2,18 +2,18 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     display: flex;
-    flex-direction: column; /* Alinha os itens verticalmente */
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     box-sizing: border-box;
-    position: relative; /* Necessário para posicionar o ::before */
-    background-color: #1e272c; /* Cor de fundo de fallback caso a imagem não carregue */
+    position: relative;
+    background-color: #1e272c;
 }
 
 body::before {
     content: '';
-    background: url('fundo-dolar.png'); /* Certifique-se de que o nome do arquivo esteja correto */
+    background: url('fundo-dolar.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -22,19 +22,19 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: -1; /* Coloca a imagem de fundo atrás do conteúdo */
-    opacity: 0.7; /* Ajuste este valor para a opacidade da imagem de fundo */
+    z-index: -1;
+    opacity: 0.7;
 }
 
 .seta-pisca-container {
     position: fixed;
-    top: 5px; /* Ajuste para subir a seta */
-    right: 10px; /* Ajuste para mover a seta para a esquerda */
+    top: 5px;
+    right: 10px;
     z-index: 10;
 }
 
 .seta-pisca {
-    width: 120px; /* Seta ainda maior */
+    width: 120px;
     height: auto;
     animation: piscar 1s infinite alternate;
 }
@@ -46,14 +46,14 @@ body::before {
 
 .instagram-icon {
     display: block;
-    width: 80px; /* Ajuste o tamanho conforme necessário */
-    height: 80px; /* Defina uma altura igual à largura para formar um círculo */
-    margin: 0 auto 40px auto; /* Espaço entre a imagem e a mensagem */
-    border-radius: 50%; /* Cria o formato redondo */
-    object-fit: cover; /* Garante que a imagem cubra o círculo sem distorcer */
-    box-sizing: border-box; /* Importante para que a borda não aumente o tamanho total */
-    border: 10px solid transparent; /* Ajuste a largura da borda para a espessura desejada */
-    border-image: url('borda.png') 30 round; /* Caminho para sua imagem de borda PNG */
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 40px auto;
+    border-radius: 50%;
+    object-fit: cover;
+    box-sizing: border-box;
+    border: 10px solid transparent;
+    border-image: url('borda.png') 33.33% round;
 }
 
 .container {
@@ -66,8 +66,8 @@ body::before {
     width: 90%;
     max-width: 450px;
     box-sizing: border-box;
-    opacity: 1; /* Garante que o container seja totalmente opaco */
-    margin-top: -20px; /* Ajuste este valor para mover a caixa para cima */
+    opacity: 1;
+    margin-top: -20px;
 }
 
 .aviso-principal {
