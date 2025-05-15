@@ -69,6 +69,7 @@ body::before {
     max-width: 450px;
     box-sizing: border-box;
     opacity: 1; /* Garante que o container seja totalmente opaco */
+    margin-top: -20px; /* Ajuste este valor para mover a caixa para cima (negativo) */
 }
 
 .aviso-principal {
