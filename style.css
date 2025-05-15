@@ -46,11 +46,11 @@ body::before {
 
 .instagram-icon {
     display: block;
-    width: 100px; /* Ajuste o tamanho conforme necessário */
-    height: 100px; /* Defina uma altura igual à largura para formar um círculo */
-    margin-bottom: 20px; /* Espaço entre a imagem e a mensagem */
-    border-radius: 50%; /* Cria o formato redondo */
-    object-fit: cover; /* Garante que a imagem cubra o círculo sem distorcer */
+    width: 120px; /* Ajuste o tamanho conforme necessário */
+    height: 120px; /* Defina uma altura igual à largura para formar um círculo */
+    margin: 0 auto 40px auto; /* Aumentamos a margem inferior para 40px (ajuste conforme necessário) */
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 .container {
