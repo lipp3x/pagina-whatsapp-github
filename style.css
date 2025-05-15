@@ -49,7 +49,7 @@ body::before {
     width: 130px;
     height: 130px;
     margin: 0 auto 40px auto;
-    border-radius: 50%;
+    border-radius: 90%;
     object-fit: cover;
     box-sizing: border-box;
     border: 10px solid transparent;
@@ -62,7 +62,7 @@ body::before {
     background-color: #f8f9fa;
     color: #495057;
     padding: 40px;
-    border-radius: 12px;
+    border-radius: 20px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
     text-align: center;
     width: 90%;
