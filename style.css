@@ -1,6 +1,9 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #1e272c 0%, #29343d 100%);
+    background: url('fundo-dolar.jpg'); /* Substitua 'fundo-dolar.jpg' pelo nome do seu arquivo de fundo */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     margin: 0;
     display: flex;
     justify-content: center;
