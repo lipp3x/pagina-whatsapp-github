@@ -3,10 +3,39 @@ body {
     background-color: #1e272c; /* Cor de fundo azulada escura */
     margin: 0;
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
+    flex-direction: column; /* Organiza os itens em coluna */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    justify-content: flex-start; /* Alinha os itens ao início (topo) verticalmente por padrão */
     min-height: 100vh;
+    padding-top: 20px; /* Espaço superior para o aviso do TikTok */
     box-sizing: border-box;
+}
+
+.aviso-tiktok {
+    background-color: #fffacd; /* Cor amarela clara */
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    position: relative;
+    width: 90%;
+    max-width: 600px;
+    box-sizing: border-box;
+}
+
+.fechar-aviso {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 1.2em;
+    color: #888;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.fechar-aviso:hover {
+    color: #555;
 }
 
 .container {
@@ -19,6 +48,8 @@ body {
     width: 90%;
     max-width: 400px;
     box-sizing: border-box;
+    margin-top: auto; /* Empurra o container para o centro verticalmente */
+    margin-bottom: auto; /* Empurra o container para o centro verticalmente */
 }
 
 .aviso-principal {
