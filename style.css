@@ -1,6 +1,6 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: url('fundo-dolar.jpg'); /* Substitua 'fundo-dolar.jpg' pelo nome do seu arquivo de fundo */
+    background: url('fundo-dolar.png'); /* *** Nome do arquivo da sua imagem de fundo *** */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
