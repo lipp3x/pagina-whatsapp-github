@@ -7,6 +7,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="aviso-tiktok">
+        ⚠️ Se estiver no TikTok, clique nos 3 pontinhos no canto superior direito e selecione "Abrir no navegador".
+        <span class="fechar-aviso">&times;</span>
+    </div>
     <div class="container">
         <div class="aviso-principal">
             <p class="atencao">📢 <strong>Atenção!</strong></p>
@@ -15,5 +19,18 @@
         <a href="SEU_LINK_DO_WHATSAPP" class="botao-entrar" target="_blank">Entrar no Grupo</a>
         <p class="grupo-oficial">Grupo oficial da comunidade NEW MONEY</p>
     </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const avisoTiktok = document.querySelector('.aviso-tiktok');
+            const botaoFecharAviso = document.querySelector('.fechar-aviso');
+
+            if (botaoFecharAviso) {
+                botaoFecharAviso.addEventListener('click', function() {
+                    avisoTiktok.style.display = 'none';
+                });
+            }
+        });
+    </script>
 </body>
 </html>
