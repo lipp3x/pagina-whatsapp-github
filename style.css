@@ -1,6 +1,6 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: url('dolar-gif.gif'); /* *** Nome do arquivo da sua imagem de fundo *** */
+    background: url('fundo-dolar.png'); /* Certifique-se de que o nome do arquivo esteja correto */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -10,6 +10,7 @@ body {
     align-items: center;
     min-height: 100vh;
     box-sizing: border-box;
+    opacity: 0.7; /* Ajuste este valor para a opacidade desejada (ex: 0.5, 0.3, etc.) */
 }
 
 .seta-pisca-container {
