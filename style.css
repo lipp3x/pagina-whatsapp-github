@@ -1,6 +1,6 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Fonte mais comum e agradável */
-    background: linear-gradient(135deg, #1e272c 0%, #29343d 100%); /* Gradiente sutil */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #1e272c 0%, #29343d 100%);
     margin: 0;
     display: flex;
     justify-content: center;
@@ -9,48 +9,66 @@ body {
     box-sizing: border-box;
 }
 
+.seta-pisca-container {
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    z-index: 10;
+}
+
+.seta-pisca {
+    width: 50px;
+    height: auto;
+    animation: piscar 1s infinite alternate;
+}
+
+@keyframes piscar {
+    from { opacity: 1; }
+    to { opacity: 0.2; }
+}
+
 .container {
-    background-color: #f8f9fa; /* Um branco mais suave */
-    color: #495057; /* Texto mais escuro e suave */
-    padding: 40px; /* Um pouco mais de espaço interno */
-    border-radius: 12px; /* Bordas mais arredondadas */
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Sombra mais suave e pronunciada */
+    background-color: #f8f9fa;
+    color: #495057;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
     text-align: center;
     width: 90%;
-    max-width: 450px; /* Largura máxima um pouco maior */
+    max-width: 450px;
     box-sizing: border-box;
 }
 
 .aviso-principal {
-    margin-bottom: 25px; /* Mais espaço abaixo do aviso */
+    margin-bottom: 25px;
 }
 
 .atencao {
-    font-size: 1.7em; /* Tamanho um pouco maior */
-    color: #dc3545; /* Vermelho mais vibrante */
+    font-size: 1.7em;
+    color: #dc3545;
     margin-bottom: 12px;
-    font-weight: bold; /* Deixando em negrito */
+    font-weight: bold;
 }
 
 .botao-entrar {
     display: inline-block;
-    padding: 18px 35px; /* Botão um pouco maior */
-    background-color: #28a745; /* Verde mais vibrante */
+    padding: 18px 35px;
+    background-color: #28a745;
     color: #fff;
     text-decoration: none;
-    border-radius: 8px; /* Bordas mais arredondadas no botão */
+    border-radius: 8px;
     font-weight: bold;
     font-size: 1.2em;
-    transition: background-color 0.3s ease, transform 0.2s ease-in-out; /* Transições suaves */
+    transition: background-color 0.3s ease, transform 0.2s ease-in-out;
 }
 
 .botao-entrar:hover {
-    background-color: #218838; /* Verde um pouco mais escuro no hover */
-    transform: scale(1.05); /* Pequena animação ao passar o mouse */
+    background-color: #218838;
+    transform: scale(1.05);
 }
 
 .grupo-oficial {
     font-size: 0.9em;
-    color: #6c757d; /* Cinza mais suave */
-    margin-top: 20px; /* Mais espaço acima do texto */
+    color: #6c757d;
+    margin-top: 20px;
 }
