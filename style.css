@@ -13,7 +13,7 @@ body {
 
 body::before {
     content: '';
-    background: url('fundo-dolar.gif');
+    background: url('fundo-dolar.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -36,7 +36,7 @@ body::before {
 .seta-pisca {
     width: 120px;
     height: auto;
-    animation: piscar 1s infinite alternate;
+    animation: piscar 0.5s infinite alternate;
 }
 
 @keyframes piscar {
@@ -46,13 +46,13 @@ body::before {
 
 .instagram-icon {
     display: block;
-    width: 150px;
-    height: 150px;
+    width: 80px;
+    height: 80px;
     margin: 0 auto 40px auto;
-    border-radius: 10%;
+    border-radius: 50%;
     object-fit: cover;
     box-sizing: border-box;
-    border: 10px solid transparent;
+    border: 3px solid transparent;
     background-image: linear-gradient(to bottom, #fccc63, #e95950, #d62976, #962fbf, #4f5bd5);
     background-origin: border-box;
     background-clip: content-box, border-box;
@@ -62,7 +62,7 @@ body::before {
     background-color: #f8f9fa;
     color: #495057;
     padding: 40px;
-    border-radius: 10px;
+    border-radius: 12px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
     text-align: center;
     width: 90%;
