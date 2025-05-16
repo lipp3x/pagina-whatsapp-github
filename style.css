@@ -13,7 +13,7 @@ body {
 
 body::before {
     content: '';
-    background: url('fundo-dolar.png');
+    background: url('fundo-dolar.gif');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
