@@ -68,7 +68,7 @@ body::before {
     width: 90%;
     max-width: 450px;
     box-sizing: border-box;
-    opacity: 1;
+    opacity: 0.4;
     margin-top: -20px;
 }
 
