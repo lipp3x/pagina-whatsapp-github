@@ -46,8 +46,8 @@ body::before {
 
 .instagram-icon {
     display: block;
-    width: 80px;
-    height: 80px;
+    width: 180px;
+    height: 180px;
     margin: 0 auto 40px auto;
     border-radius: 50%;
     object-fit: cover;
